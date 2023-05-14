@@ -120,6 +120,7 @@ body{
     padding-left: 15px;
     border: 1px solid  hsl(279, 6%, 55%);
     border-radius: 10px;
+    margin-left: 18px;
 }
 .btn{
     width: 370px;
@@ -277,7 +278,7 @@ body{
     padding-left: 15px;
     border: 1px solid  hsl(279, 6%, 55%);
     border-radius: 10px;
-    margin-left: 0;
+    margin: 0;
 }
 .btn{
     width: 320px;
