@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
+.item1{
+    background-image: url(images/bg-main-desktop.png);
+    height: 900px;
+    flex-grow: 1;
+}
+.item2{
+    flex-grow: 2;
+    color: #F3F6FB ;
+}
+
+
+.card2{
+    width: 350px;
+    height: 170px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 170px;
+    top:0;
+    left:0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-image: url(images/bg-card-front.png);
+    background-size: cover;
+    
+    
+}
+
+.card1{
+    width: 350px;
+    height: 170px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 350px;
+    margin-left: 270px;
+    top:0;
+    left:0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-image: url(images/bg-card-back.png);
+    background-size: cover;
+
+}
+.details1{
+    display: flex;
+    padding: 15px 0 5px 27px;
+    
+}
+.details2{
+    display: flex;
+    padding: 15px 0 5px 17px;
+    
+}
+.details3{
+    display: flex;
+    padding: 15px 0 5px 15px;
+   
+    
+}
+.details4{
+    display: flex;
+    padding: 15px 0 5px 15px;
+    justify-content: flex-end;
+   
+    
+}
+.MyForm{
+    display: flex;
+    padding: 200px 100px 190px 700px;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+.formhead{
+    color: hsl(278, 68%, 11%);
+    font-size: 13px;
+   margin-bottom: 10px;
+}
+.inputBox{
+    width: 350px;
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid  hsl(279, 6%, 55%);
+    border-radius: 10px;
+}
+.formitem{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.lastdetails{
+    display: flex;
+    flex-direction: column;
+}
+.inputBox1{
+    width: 50px;
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid  hsl(279, 6%, 55%);
+    border-radius: 10px;
+}
+.inputBox2{
+    width: 180px;
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid  hsl(279, 6%, 55%);
+    border-radius: 10px;
+}
+.btn{
+    width: 370px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 10px;
+
+}
+.formhead1{
+    color: white;
+    font-size: 17px;
+    padding: 15px;
+   
+}
+.error{
+    border: 1px solid hsl(0, 100%, 66%);
+}
+
+#errormsg1{
+    color: hsl(0, 100%, 66%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#errormsg2{
+    color: hsl(0, 100%, 66%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#errormsg3{
+    color: hsl(0, 100%, 66%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#errormsg4{
+    color: hsl(0, 100%, 66%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#errormsg5{
+    color: hsl(0, 100%, 66%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+ 
+   .item1{
+    background-image: url(images/bg-main-mobile.png);
+    width: 420px;
+    height: 240px;
+    flex-grow: 1;
+    
+}
+.item2{
+    flex-grow: 2;  
+    height: 480px;
+    color: #F3F6FB ;
+
+}
+.card1{
+    width: 310px;
+    height: 150px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    margin-left: 85px;
+    top:0;
+    left:0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-image: url(images/bg-card-back.png);
+    background-size: cover;
+}
+.card2{
+    width: 310px;
+    height: 150px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 127px;
+    margin-left: 20px;
+    top:0;
+    left:0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-image: url(images/bg-card-front.png);
+    background-size: cover;
+    
+}
+.details1{
+    display: flex;
+    padding: 8px 0 3px 17px;
+    
+}
+.details2{
+    display: flex;
+    padding: 8px 0 3px 7px;
+    
+    
+}
+.details3{
+    display: flex;
+    padding: 8px 0 3px 7px;
+    
+    
+}
+.details4{
+    display: flex;
+    padding: 8px 0 3px 7px;
+    justify-content: flex-end;
+}
+#no{
+    font-size: 15px;
+}
+#cvvNo{
+    padding-top: 55px 0 0 0 ;
+}
+.MyForm{
+    display: flex;
+    padding: 300px 50px 50px 0px;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+.formhead{
+    color: hsl(278, 68%, 11%);
+    font-size: 13px;
+   margin-bottom: 10px;
+}
+.inputBox{
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid  hsl(279, 6%, 55%);
+    border-radius: 10px;
+}
+.inputBox1{
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid  hsl(279, 6%, 55%);
+    border-radius: 10px;
+}
+.inputBox2{
+    width: 130px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid  hsl(279, 6%, 55%);
+    border-radius: 10px;
+}
+.btn{
+    width: 320px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 10px;
+
+}
+.error{
+    border: 1px solid hsl(0, 100%, 66%);
+}
+
+  }
+  
+

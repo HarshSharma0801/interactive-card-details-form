@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdtyelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="item1">
+
+
+
+    </div>
+    <div class="item2">
+     
+        <form action="#" class="MyForm" onsubmit="return Validate()" method="post">
+        <div class="formitem lastdetails">
+          <div>
+            <span  class="formhead">CARDHOLDER NAME:</span>
+          </div>
+          <div style="margin-top: 10px;">
+            <input type="text" class="inputBox"  placeholder="e.g. Jane Appleseed" id="name"><br>
+            <span id="errormsg1" class="errormsg">  </span>
+          </div>
+         
+          
+    
+        </div>
+
+        <div class="formitem lastdetails">
+          <div>
+            <span  class="formhead">CARD NUMBER:</span>
+          </div>
+          <div style="margin-top: 10px;" >
+            <input type="number" class="inputBox"  placeholder="e.g. 1234 5678 9123 0000" id="number"><br>
+            <span id="errormsg2"  class="errormsg">  </span>
+
+          </div>
+          
+          
+    
+        </div>
+
+        <div class="formitem lastdetails">
+          <div>
+            <span class="formhead">EXP. DATE (MM/YY):</span>
+            <span class="formhead" style="padding-left: 50px;">
+              CVC:
+            </span>
+          </div>
+          <div style="margin-top: 10px;">
+            <input type="number" class="inputBox1"  placeholder="MM" id="month">
+            <input type="number" class="inputBox1" style="margin-left: 5px;" placeholder="YY" id="year">
+            <input type="number" class="inputBox2" style="margin-left: 18px;" placeholder="e.g. 123" id="cvv">
+
+          </div>
+          <div style="margin-top: 10px;">
+          <span  id="errormsg3" ></span>
+
+          <span  id="errormsg4" style="margin-left: 5px;"></span>
+
+          <span  id="errormsg5" style="margin-left: 18px;"></span>
+          </div>
+
+          <div>
+            <span></span>
+          </div>
+          
+    
+        </div>
+
+        <div class="formitem">
+          <button type="submit" class="btn">
+           <span class="formhead1">Confirm</span> 
+        
+
+          </button>
+
+        </div>
+
+
+
+      </form>
+      
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+  <div class="card2">
+    <div class="details1">
+      <div class="details" style="background-color: white; width: 40px; height: 40px; border-radius: 50%; ">
+      </div>
+      <div class="details" style="width: 25px; height: 25px; border-radius: 50px; border: 3px solid white;
+        margin-top: 5px; margin-left: 15px;">
+
+      </div>
+      <br>
+
+    </div>
+    <div class="details2">
+      <div style="margin-top: 10px;">
+        <span style="color: white; font-size: 25px;" id="no">9591 6489 6389 101E</span>
+      </div>
+    </div>
+
+    <div class="details3" style=" justify-content: space-between;
+    color: white;">
+      <div style="flex-grow: 0;">
+        FELICIA LEIRE
+
+      </div>
+
+      <div style="flex-grow: 0; padding-right: 10px;">
+        09/00
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+  <div class="card1">
+    <div class="details4">
+      <div style="padding-right: 50px; padding-top: 70px; color: white;" id="cvvNo">
+        000
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
